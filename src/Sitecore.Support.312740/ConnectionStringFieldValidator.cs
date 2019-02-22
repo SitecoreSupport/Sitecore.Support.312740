@@ -8,6 +8,7 @@ using Sitecore.Data.Validators;
 
 namespace Sitecore.Support.DataExchange.Local.Validators.FieldValidators
 {
+  [Serializable]
   public class ConnectionStringFieldValidator : StandardValidator
   {
     public override string Name => "Connection String";
